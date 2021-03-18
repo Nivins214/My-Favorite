@@ -1,0 +1,50 @@
+body{
+  text-align:center;
+}
+img{
+  height:250px;
+    border-radius:50%;
+  width:300px;
+}
+div{
+     height: 6px;
+     width:70px;
+     background-color: black;
+     margin: 8px auto;
+     color:black;
+}
+ #bio {
+     padding: 50px;
+     text-align: center;
+}
+   #welcome{
+ background: linear-gradient(#00FF00 0%, #50D8DA 100%);
+   }
+#bio{
+  background: linear-gradient(#50D8DA  0%,#00FF00 100%);
+  width:full screen;
+}
+.menu{
+    list-style:none;
+    font-family: cursive;
+    float:right;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    color:black;
+}
+li{
+    display:inline;
+    border-spacing: 10px;
+}
+ul{
+    background-color: darkred;
+    height:40px;
+    border-radius:20px;
+    border-spacing: 10px;
+    margin-right:20px;
+}
+.link:hover{
+    background-color: darkred;
+    font-size: 20px;
+}
